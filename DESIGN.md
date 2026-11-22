@@ -1,5 +1,79 @@
 # DESIGN.md — news-image-20261121
 
+## v2 rebuild — jalur A (22 Nov ~13:00 WIB, branch `news21-a`)
+
+**Live leaderboard (22 Nov ~12:45 WIB, 14,328 entries, dev phase):**
+#1 skyscrapperr 99.2049% (140,343 B) · #2 samatch-we 99.1923% ·
+#3 superskie 99.1548% · #4 vivid-walrus-44-2678 99.1529% ·
+#5 quiet-panda-11 99.1256% · #50 golden-wren-50 98.8803% ·
+#100 98.7351%. Top-1 changed since v1 (was samatch-we 99.19%).
+Our entry is NOT on the leaderboard — v1 was never submitted.
+
+**What the top pages do (read top-1/2/3/4/5/9 artifacts):** giant
+serif date masthead + 3-lead subhead → coloured region bar →
+"THE DAY IN NUMBERS" (6 stats) → UTC timeline strip → 3 illustrated
+heroes → ~10 illustrated mediums (one original flat-vector
+illustration per card) → light dotted world map + numbered pins →
+numbered briefs (22–34) → DATE CHECK box → "HOW WE CHECKED" box
+(CONFIRMED = 2+ outlets, OFFICIAL = on the record, REPORTED =
+one outlet, CLAIM = one side) → per-story sources + confidence
+badges on cards. Text-only caps ~98.0–98.2%, below the top-50 line.
+
+**Gaps v1 → v2 (all closed):** (1) Iran strike on Bahrain bases +
+2 tankers off Oman — the biggest Saturday story — was missing
+entirely; now hero #1. (2) Missing CEPA, Sparta II, Basra fire,
+Bitcoin 2-year low, Davao jet, Taiwan short-selling ban, England
+37–12, Geneva 128, El Chapo Isidro — now mediums. (3) Peru hero
+said "19:09 Friday" — corrected to 00:09 UTC Sat with the updated
+INDECI toll (1 dead, 16 hurt, 152 homes uninhabitable, 93,000
+without power). (4) Nasdaq −5.3% Friday demoted from numbers
+strip + medium to DATE CHECK. (5) "Trump weighs new strikes on
+Iran" dropped — superseded by the actual strike; kept as a DATE
+CHECK line ("Fri: Trump weighed Iran strikes; Sat, Iran struck
+first"). (6) Region bar: 7 cryptic regions → 9 regions with a
+full legend (EUROPE 11 · MIDEAST 5 · AMERICAS 5 · AFRICA 3 ·
+EAST ASIA 3 · SE ASIA 2 · SOUTH ASIA 2 · OCEANIA 1 · GLOBAL 3).
+(7) Dark navy map → light dotted panel, all 13 pins legible.
+(8) Added HOW WE CHECKED box + confidence badge on every card.
+(9) Medium art enlarged (40px icons, 48px rows). (10) Masthead
+bigger ("SATURDAY 21 NOVEMBER 2026", Gloock 40).
+
+**Verification (22 Nov ~13:00 WIB, 20 searches):** Iran/Bahrain +
+tankers (Al Jazeera, Reuters, UKMTO Warnings 215-26/216-26);
+CEPA (EC, Antara — 90.4% zero from day one); Sparta II (Reuters,
+CNN, Finnish Defence Forces); Basra (Reuters, INA — 4 killed);
+Bitcoin (Reuters, CoinGecko — $55,789 low); Davao PX19 (AP, CAAP
+— 146 safe); Taiwan (Focus Taiwan, Reuters — TAIEX −17.5%/week);
+England 37–12 (Reuters, AP — record margin); Geneva 128 (Reuters,
+UN CCW — "elaborate", not binding); El Chapo (Reuters, CNN, WSJ —
+Fri night, 11 killed); COP31 overtime (AP, Reuters — still no
+deal Sat); Peru (IGP, USGS, INDECI); CAF 54/54 endorsement — NOT
+a re-election (Al Jazeera — vote 18 Mar 2027); Gaza 4 killed
+(Reuters — WCK says vehicle unaffiliated); Pakistan Mastung 15
+(The News — Sat night, NOT the 16–17 Nov KP raids); Las Vegas
+qualifying was Friday (FIA — Antonelli fastest, Verstappen on
+pole) → DATE CHECK. Briefs reused from v1's verified research
+file where already verified.
+
+**Layout (1024×1024, final y = 1012):** eyebrow → Gloock 40pt
+date masthead → red italic 3-lead subline → 9-segment region bar
+(counts inside, full legend above) → THE DAY IN NUMBERS (6 figures)
+→ SATURDAY BY THE HOURS timeline (7 UTC events) → 3 hero cards
+(58px art band + place + badge pill + headline + deck + sources)
+→ MORE OF THE DAY, 10 medium cards (2 cols × 5, 48px rows, 40px
+art) → light dotted world map (pins 1–13, grey dots 14–35) →
+THE REST OF THE DAY, 22 numbered briefs (2 cols, headline +
+detail, zero truncation) → DATE CHECK + HOW WE CHECKED side by
+side → NOT YET line → sources footer.
+
+**QA log (v2):** 1. First render final y 1012, bottom margin 12.
+2. Zoom-QA found ~half the brief details truncated mid-word —
+fixed by shortening 13 details + the France headline; re-QA
+shows zero truncations. 3. DATE CHECK items 4–5 truncated —
+shortened; re-QA clean. 4. Map zoom-QA: all 13 pins legible,
+no overlaps (spiral de-collision). 5. Small-size (512px) check:
+structure holds, all sections readable.
+
 ## Competitor analysis (leaderboard 22 Nov 00:12 WIB, 7,840 entries)
 
 | Rank | Entry | Score | Title pattern |
