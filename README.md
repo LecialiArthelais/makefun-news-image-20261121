@@ -1,8 +1,15 @@
 # news-image-20261121 — Saturday 21 November 2026 in one image (v2-alt, path B)
 
+[![make.fun · news-image-20261121](https://make.fun/badge/news-image-20261121.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![rank](https://make.fun/badge/news-image-20261121/LecialiArthelais/makefun-news-image-20261121/rank.svg)](https://make.fun/bounty/news-image-20261121/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+[![reward](https://make.fun/badge/news-image-20261121/LecialiArthelais/makefun-news-image-20261121/reward.svg)](https://make.fun/bounty/news-image-20261121?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261121)
+
 Entry for the make.fun bounty **news-image-20261121**
-("Sum up 21 November's world news in one image", $100).
+("Sum up 21 November's world news in one image", $100) — see the
+[bounty page](https://make.fun/bounty/news-image-20261121).
 Closes 23 Nov 2026 07:00 WIB.
+
+Referral code: `3554s5p5` — try make.fun and build your own entry.
 
 Branch `news21-b`: the alternative maximisation (path B). See
 `DESIGN_v2.md` for the full audit of v1 and the design notes.
